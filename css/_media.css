@@ -1,0 +1,848 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.footer-block--1 {
+		display: none;
+	}
+	h1 {
+		font-size: 4.5rem;
+	}
+	.main-carousel-caption p span {
+		font-size: 4.5rem;
+	}
+	.contacts-inside {
+		margin-left: 20%;
+	}
+	.our-priject--3 {
+		display: none;
+	}
+	.sinc-capture {
+		width: 100%;
+	}
+	.sinc-capture-centered {
+		width: 50%;
+		left: 10%;
+	}
+	.developed-by {
+		text-align: center;
+	}
+	#carousel-our-pride-1 .carousel-caption {
+		width: 80%;
+	}
+	#carousel-our-pride-1 .main-centered h3 {
+		padding-top: 1rem;
+	}
+	#carousel-our-pride-1 .main-centered p {
+		margin-bottom: 1rem;
+	}
+	#carousel-our-pride-1 .carousel-indicators,
+	#carousel-our-pride-3 .carousel-indicators {
+		width: 20%;
+		right: 5%;
+		left: 76%;
+		bottom: 3%;
+	}
+	.our-project.our-project--3 {
+		margin-left: 371px;
+	}
+	.our-project.our-project--2 {
+		padding-left: 5px;
+	}
+	.our-project.our-project--4 {
+		padding-left: 0.6rem;
+		padding-right: 1rem;
+	}
+	.our-project.our-project--5 {		
+		padding-right: 1rem;
+	}
+	#main-slider .owl-buttons .owl-prev {
+		left: 3%;
+	}
+	#main-slider .owl-buttons .owl-next {
+		right: 3%;
+	}
+	.our-pride-2-text-centered h3 {
+		padding-top: 0;
+	}
+	.our-pride-2-text-centered p {
+		margin-bottom: 1rem;
+	}
+	#our-pride-1 .carousel-caption, 
+	#our-pride-3 .carousel-caption {
+		width: 85%;
+	}
+	#our-pride-1 .owl-buttons .owl-next,
+	#our-pride-2 .owl-buttons .owl-next,
+	#our-pride-3 .owl-buttons .owl-next {
+		right: 2%;
+	}
+	#our-pride-1 .owl-buttons .owl-prev,
+	#our-pride-2 .owl-buttons .owl-prev,
+	#our-pride-3 .owl-buttons .owl-prev {
+		left: 2%;
+	}
+	#our-pride-1 .owl-pagination {
+		bottom: 0;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.main-page-footer-fitures ul {
+		margin-bottom: 4rem;
+	}
+	.project-page-inner-block {
+		width: 100%;
+	}
+	.inner-block-inside {
+		width: 80%;
+	}
+	.service-features {
+		text-align: center;
+	}
+	.project-feedback__headline {
+		margin-bottom: 4.5rem;
+	}
+	.more-feedbacks {
+		display: inline-block;
+		margin-bottom: 4rem;
+	}
+	.contacts-inner-block {
+		width: 60%;
+	}
+	.contacts-inside {
+
+		margin-left: 5rem;
+	}
+	.progect-page-headline {
+		max-width: 350px;
+	}
+	.form-group {
+		display: block;	
+		margin-right: auto;
+		margin-left: auto;	
+	}	
+	.form-group-1 {
+		margin-right: auto;
+		margin-left: auto;
+	}
+	#carousel-our-pride-2 .carousel-indicators {
+		width: 21%;
+		right: 5%;
+		left: 67.3%;
+		bottom: -6%;
+	}
+	#carousel-our-pride-1 .carousel-caption {
+		width: 90%;
+	}
+	
+	.author-picture {
+		margin-top: 0;
+		margin-bottom: 2rem;
+	}
+	.feed-back-slider-text {
+		max-width: 660px;
+		padding-left: 7rem;
+		text-align: justify;
+		margin-left: 0;
+	}
+	#our-pride-1 .owl-buttons .owl-next {
+		top: 67%;
+	}
+	#our-pride-2 .owl-buttons .owl-next,
+	#our-pride-3 .owl-buttons .owl-next {
+		top: 15%;
+	}
+	#our-pride-1 .owl-buttons .owl-prev {
+		top: 67%;
+	}
+	#our-pride-2 .owl-buttons .owl-prev,
+	#our-pride-3 .owl-buttons .owl-prev {
+		top: 15%;
+	}
+	#our-pride-1 .owl-pagination, 
+	#our-pride-2 .owl-pagination,
+	#our-pride-2 .owl-pagination {
+		display: none;
+	}
+	#our-pride-1 .main-centered h3 {
+		padding-top: 4rem;
+	}
+  .our-pride-2-text-centered {
+  	padding-bottom: 4rem;
+  }
+  .our-pride-1, .our-pride-2 {
+    margin-bottom: 0;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	.tab-pane {
+		padding-top: 4rem;
+	}
+	.feed-back-slider-text {
+		padding-right: 5rem;
+	}
+	.our-clients-cell img {
+		width: 80%;
+	}
+	
+	.owl-pagination {    
+		bottom: 7%;
+		left: 50%;    
+		margin-left: -50px;
+	}
+	.our-pride-2-text-centered {
+		padding-left: 35px;
+		padding-right: 40px;
+	}
+	#sync1 .owl-prev, #sync1 .owl-next {
+		display: none;
+	}	
+	#sync3 .owl-wrapper-outer .owl-wrapper {
+		left: 0 !important;
+	}	
+	#sync3 .item {
+    max-width: 190px;
+  }
+  .contacts-inner-block {
+  	width: 100%;
+  	position: relative;
+  	background: #342F2B;
+  }
+}
+@media only screen
+and (max-width : 480px) {
+	.main-page-footer-headline {
+		margin-bottom: 2.5rem;
+	}
+	.sinc-capture-centered {
+		width: 100%;
+		left: 4%;
+		padding-right: 20px;
+	}
+	.contacts-inner-block {
+		width: 100%;
+
+	}
+	.contacts-inside {
+		margin-left: 0;
+		margin-right: 0;    
+		width: 100%;
+	}
+	.modal-content {    
+		padding: 3rem 1.5rem 4.5rem;
+	}
+	.questions-block h3 {
+		padding-top: 0;
+	}
+}
+/* Смартфоны (портретный режим) ----------- */
+@media only screen
+and (max-width : 320px) {
+	.main-footer-form .input-group {
+		max-width: 205px;
+	}
+	.main-footer-form-btn {
+		max-width: 205px;
+	}
+	.project-data {
+		margin-left: 3rem;
+		margin-right: 1rem;
+	}	
+}
+
+
+/* iPad (портретный и альбомный режимы) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px){
+
+} 
+
+
+/* IPhone 6 (портретный и альбомный режимы) ----------- */
+@media only screen
+and (min-width : 375px)
+and (max-width : 667px) {
+	.main-page-footer-headline {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}
+/* IPhone 5 (портретный и альбомный режимы) ----------- */
+@media only screen
+and (min-width : 320px)
+and (max-width : 568px) {
+	.contacts-inside {
+		padding-left: 1rem;
+	}
+}
+
+/* IPhone 4, Смартфоны (портретный и альбомный режимы) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+	.logo-text-mobile {
+		margin-bottom: 2rem;
+	}
+	.main-footer-form-wrap h3 {
+		font-size: 1.8rem;
+		padding-top: 2rem;
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+	.main-page-footer-fitures h3 {
+		padding: 2.5rem 0 0;
+	}
+	.main-page-footer-fitures ul {
+		margin-bottom: 3rem;
+	}
+	.main-page-footer-fitures ul li {
+		font-size: 1.6rem;
+	}
+	.main-footer-form .input-group {
+		width: 205px;
+	}
+	.main-footer-form-btn {
+		width: 205px;
+	}
+	.project-statement {		
+		padding-right: 1rem;
+	}
+	.service-features a {
+		font-size: 2rem;
+	}
+	.main-headline {
+		font-size: 2.5rem;
+		margin-bottom: 3.5rem;
+	}
+	.our-pride-2-text-centered {
+		padding-left: 20px !important;
+		padding-right: 20px !important;
+	}
+
+}
+
+
+/* Customs options (портретный и альбомный режимы) ----------- */
+@media only screen
+and (min-width : 1430px)
+and (max-width : 1540px) {
+	#sync4 .owl-prev {
+		top: 116%;
+		left: 8%;
+	}
+	#sync4 .owl-next {
+		top: 116%;
+		right: 8%;
+	}
+}
+@media only screen
+and (min-width : 1350px)
+and (max-width : 1429px) {
+	#sync4 .owl-prev {
+		top: 116%;
+		left: 6%;
+	}
+	#sync4 .owl-next {
+		top: 116%;
+		right: 6%;
+	}
+}
+@media only screen
+and (min-width : 1270px)
+and (max-width : 1349px) {
+	#sync4 .owl-prev {
+		top: 116%;
+		left: 3%;
+	}
+	#sync4 .owl-next {
+		top: 116%;
+		right: 3%;
+	}
+}
+@media only screen
+and (min-width : 1200px)
+and (max-width : 1269px) {
+	#sync4 .owl-prev {
+		top: 116%;
+		left: 1%;
+	}
+	#sync4 .owl-next {
+		top: 116%;
+		right: 1%;
+	}
+}
+@media only screen
+and (min-width : 1201px)
+and (max-width : 1470px) {
+	h1 {
+		font-size: 5.5rem;
+		padding-left: 3rem;
+	}
+	.main-caption-inside {
+		top: 2rem;
+	}
+	.carousel-indicators {
+		left: 20.5%;
+		bottom: 12.8rem;
+	}
+	.main-carousel-caption p {
+		font-size: 2rem;
+		padding-top: 0;
+		padding-left: 3rem;
+	}
+	.main-carousel-caption p span {
+		font-size: 4rem;
+	}
+	.main-slider-indicators {
+		left: 10.2%;
+	}
+	.contacts-inside {
+		margin-left: 15rem;
+	}
+}
+
+@media only screen
+and (min-width : 992px)
+and (max-width : 1200px) {
+	.service-picture {
+		position: absolute;
+		top: 52%;
+		left: 27%;
+	}
+	
+	.service-features a {
+		font-size: 2.5rem;
+	}
+	.service-features--2, .service-features--4 {
+		padding-left: 3.5rem;
+		padding-right: 4.5rem;
+	}
+	.service-features--1, .service-features--3 {
+		padding-right: 5.2rem;
+		padding-left: 3.5rem;
+	}
+	.service-features--3, .service-features--4 {
+		padding-top: 5rem;
+	}
+	.service-features--5 {
+		padding-top: 0;
+		padding-left: 3rem;
+	}
+	.nav-present {
+		max-width: 250px;
+		margin-right: 2px;
+	}
+	.services-tab-menu .nav.nav-tabs li a {
+		max-width: 250px;
+		font-size: 1.4rem;	
+	}
+	.our-priject--1 {
+		margin-right: 4.7rem;
+	}
+	.our-priject--4 {
+		margin-left: -9.5rem;
+		margin-right: 3.8rem;
+	}
+	.carousel-indicators {
+		left: 17.5%;
+		bottom: 18.8rem;
+	}
+	#carousel-our-pride-2 .carousel-indicators {
+		width: 50%;
+		right: 5%;
+		left: 52.3%;
+		bottom: 27%;
+	}
+
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 992px){
+	
+}
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 992px){
+	.nav-present {
+		max-width: 230px;		
+		margin-right: 4px;		
+	}
+	.services-tab-menu .nav.nav-tabs li a {
+		max-width: 230px;
+		min-height: 60px;
+		font-size: 1.4rem;
+	}
+	h1 {
+		font-size: 4rem;
+	}
+	.main-carousel-caption p {
+		padding-top: 0;
+		margin-bottom: 1rem;
+	}
+	.main-caption-inside {
+		right: 3rem;
+	}
+	.carousel-indicators {
+		left: 18%;
+		bottom: 20.8rem;
+	}
+} 
+@media only screen
+and (min-device-width : 480px)
+and (max-device-width : 768px){
+	.nav-present {
+		max-width: 140px;		
+		margin-right: 10px;		
+	}
+	.services-tab-menu .nav.nav-tabs {
+		text-align: center;
+	}
+	.services-tab-menu .nav.nav-tabs li a {
+		max-width: 140px;
+		min-height: 80px;
+		font-size: 1.4rem;
+	}
+
+	.main-carousel-caption {    
+		width: 100%;
+		height: 50%;
+	}
+	.main-caption-centered {    
+		vertical-align: top;
+		padding-top: 4rem;
+	}
+	h1 {
+		font-size: 4rem;
+	}
+	.main-carousel-caption p {
+		font-size: 3rem;
+		padding-top: 0;
+		margin-bottom: 1rem;
+	}
+	.main-carousel-caption p span {
+		font-size: 3.5rem;
+	}
+	.main-caption-inside {
+		right: 5rem;
+	}
+	.carousel-indicators {
+		left: 34%;
+		bottom: 30rem;
+	}
+} 
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){
+	.nav-present {
+		max-width: 98px;		
+		margin-right: 5px;		
+	}	
+	.services-tab-menu .nav.nav-tabs li a {
+		max-width: 98px;
+		min-height: 71px;
+		font-size: 1.2rem;
+	}
+	.main-carousel-caption {    
+		width: 100%;
+		height: 50%;
+	}
+	.main-caption-inside {
+		width: 100%;
+	}
+	.main-caption-centered {    
+		vertical-align: top;
+		padding-top: 4rem;
+	}
+	h1 {
+		font-size: 4rem;
+		text-align: center;
+	}
+	.main-carousel-caption p {
+		font-size: 3rem;
+		text-align: center;
+		padding-top: 0;
+		margin-bottom: 1rem;
+	}
+	.main-carousel-caption p span {
+		font-size: 3.5rem;
+	}
+	.main-caption-inside {
+		right: 0;
+	}
+	.carousel-indicators {
+		left: 50%;
+		bottom: 30rem;
+	}
+} 
+@media only screen
+and (min-width : 769px)
+and (max-width : 980px) {
+	#sync1 .owl-prev {
+		top: 120%;
+		left: -5%;
+	}
+	#sync1 .owl-next {
+		top: 120%;
+		right: -5%;
+	}
+}
+
+@media only screen
+and (min-width : 550px)
+and (max-width : 980px) {
+	.main-footer-form-btn {
+		width: 370px;
+	}
+}
+@media only screen
+and (min-width : 470px)
+and (max-width : 550px) {
+	.main-footer-form .input-group {
+		width: 315px;
+	}
+	.main-footer-form-btn {
+		width: 315px;
+	}
+}
+@media only screen
+and (min-width : 400px)
+and (max-width : 470px) {
+	.main-footer-form .input-group {
+		width: 270px;
+	}
+	.main-footer-form-btn {
+		width: 270px;
+	}
+} 
+@media only screen
+and (min-width : 320px)
+and (max-width : 396px) {
+	.developed-by {
+		text-align: center;
+	}
+}
+@media only screen 
+and (max-width : 1280px) {
+	
+	.our-pride-2-text-centered {
+		padding-left: 50px;
+		padding-right: 45px;
+	}
+}
+@media only screen
+and (max-width : 991px) {
+
+	.project-statement {
+		padding-left: 1rem;
+		padding-right: 14.5rem;
+	}
+
+	.project-statement p {
+		margin-bottom: 4rem;
+	}
+	.service-picture {
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+	.service-features {
+		padding-top: 1rem;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.projects-complited {
+		padding-bottom: 5rem;
+	}
+	#our-pride-1 .owl-buttons .owl-next,		
+	#our-pride-2 .owl-buttons .owl-next,
+	#our-pride-3 .owl-buttons .owl-next {
+		display: none;
+	}
+	#our-pride-1 .owl-buttons .owl-prev,
+	#our-pride-2 .owl-buttons .owl-prev,
+	#our-pride-3 .owl-buttons .owl-prev {
+		display: none;
+	}
+
+
+}
+@media only screen
+and (max-width : 705px) {
+
+	.project-statement {		
+		padding-right: 11.8rem;
+	}
+}
+@media only screen
+and (max-width : 650px) {
+
+	.project-statement {		
+		padding-right: 6.2rem;
+	}
+}
+@media only screen
+and (max-width : 600px) {
+
+	.project-statement {		
+		padding-right: 1.2rem;
+	}	
+	.sinc-capture-centered {
+		width: 70%;    
+	}
+}
+@media only screen
+and (max-width : 420px) {
+	.sinc-capture-centered {
+		width: 100%;
+		padding-right: 34px;
+	}
+}
+@media only screen
+and (max-width : 352px) {
+	.project-info {   		 
+		width: 105px;  
+		margin-left: 0;
+		margin-right: 0;    
+	}
+	.form-group {
+		display: block;	
+		width: 100%;
+		margin-right: auto;
+		margin-left: auto;	
+	}		
+	.modal-btn {
+		width: 100%;
+	}
+}
+
+
+/* Большие экраны ----------- */
+@media only screen
+and (min-width : 1824px) {
+	#carousel-our-pride-2 .carousel-indicators {
+		width: 7%;
+		right: 5%;
+		left: 43.7%;
+		bottom: 35%;
+	}
+}
+
+/* Настольные компьютеры и ноутбуки ----------- */
+@media only screen
+and (min-width : 1200px) {
+
+	.between-wrap {
+		display: none !important;
+	}
+	.between-wrap-2 {
+		padding-left: 0;
+		display: none !important;
+	}
+	.footer-block--2 {
+		display: block !important;
+	}
+	.footer-block--3 {
+		display: block !important;
+	}
+	.footer-block--5 {
+		display: block !important;
+	}
+	.footer-block--6 {
+		display: block !important;
+	}
+	.footer-logo {
+		margin-left: 0 !important;
+	}
+
+	
+}
+@media only screen and (min-width : 992px) {
+	.between-wrap {
+		padding-top: 2rem;		
+	}
+	.between-wrap a {		
+		cursor: pointer;	
+		text-decoration: none;	
+	}
+	.between-wrap a:hover {		
+		color: #ff7323;
+	}
+	.between-wrap-2 {
+		padding-top: 2rem;
+		padding-left: 5.7rem;
+	}
+	.between-wrap-2	p {			
+		color: #ff7323;			
+	}
+	
+	.footer-block--2 {
+		display: none;
+	}
+	.footer-block--3 {
+		display: none;
+	}
+	.footer-block--5 {
+		display: none;
+	}
+	.footer-block--6 {
+		display: none;
+	}
+	.footer-logo {
+		margin-left: 19rem;
+	}
+	
+}
+@media only screen and (min-width : 480px) {
+	.mob-address-phone {
+		display: none;
+	}
+}
+
+
+
+/* iPhone 5 (альбомный режим)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+	/* Сюда добавляем стили*/
+	.footer-logo-mobile {
+		display: none;
+	}
+}
+
+/* iPhone 5 (портретный режим)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+	/* Сюда добавляем стили*/
+}
+
